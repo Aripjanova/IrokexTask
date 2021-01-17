@@ -18,6 +18,10 @@ box-sizing: border-box;
     color: #959595;
 
 }
+.mainComponent{
+    margin: auto;
+    /*text-align: center;*/
+}
 
 /*.App-logo {*/
 /*  height: 40vmin;*/
