@@ -1,0 +1,95 @@
+.header-content{
+    background: #FFFFFF;
+    height: 56px;
+    margin:   auto 10%;
+    box-sizing: border-box;
+}
+.logo{
+    margin: 16px 0;
+    display: inline;
+    float: left;
+}
+.user-box-content{
+    box-sizing: border-box;
+    height: 56px;
+    float: right;
+    display: flex;
+}
+.driven{
+    width: 1px;
+    height: 56px;
+    top: 0px;
+    background: #DDDDDD;
+}
+.message-box{
+    border: 1px;
+    display: flex;
+    align-items: center;
+    padding: 6px 12px;
+
+    position: static;
+    width: 172px;
+    height: 36px;
+    left: 21px;
+    top: 10px;
+
+
+    background: #F8F8F8;
+
+    box-sizing: border-box;
+    border-radius: 6px;
+
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 10px 20px;
+
+
+
+}
+.bell{
+    display: inline;
+    position: static;
+    left: 0%;
+    right: 83.78%;
+    top: 0%;
+    bottom: 0%;
+    margin-right:  10px;
+}
+.user-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    box-sizing: border-box;
+    height: 36px;
+    top: 10px;
+    margin: 10px 0px auto 20px;
+    background: #E5E5E5;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    height: 36px;
+    left: 0px;
+    top: 0px;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-align: right;
+}
+.avatar{
+    margin-left: auto;
+}
+.avatar img{
+    margin: 20px;
+}
